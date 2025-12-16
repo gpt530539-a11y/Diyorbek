@@ -1,0 +1,4 @@
+// btnYuklashClick ichiga, IdHTTP ulanishidan oldin qo'shing:
+IdSSLIOHandlerSocketOpenSSL1->SSLOptions->Method = sslvTLSv1_2;
+IdSSLIOHandlerSocketOpenSSL1->SSLOptions->SSLVersions = TIdSSLVersions() << sslvTLSv1_2;
+IdSSLIOHandlerSocketOpenSSL1->SSLOptions->Mode = sslmClient;
